@@ -1,0 +1,341 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8EA57EEA-D98E-49DD-80EE-7DC9EB42D391}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>ARM_Store.My.MyApplication</StartupObject>
+    <RootNamespace>ARM_Store</RootNamespace>
+    <AssemblyName>AEM Store</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>3.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>AEM Store.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>AEM Store.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>box.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>084C9185BFF166C6325DE6C874CF997F86B27050</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>ARM Store_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.vb">
+      <DependentUpon>Form2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3.Designer.vb">
+      <DependentUpon>Form3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Splash.Designer.vb">
+      <DependentUpon>Splash.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Splash.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3.resx">
+      <DependentUpon>Form3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Splash.resx">
+      <DependentUpon>Splash.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\.editorconfig">
+      <Link>.editorconfig</Link>
+    </None>
+    <None Include="ARM Store_TemporaryKey.pfx" />
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_downloads_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download_from_cloud_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\available_updates_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back_arrow_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back_arrow_48px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\software_installer_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\home_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\more_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download_64px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\help_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\software_installer_48px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_settings_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download_32px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\multiply_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\down_left_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\left_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\right_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\update_left_rotation_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\repeat_26px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\repeat_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="box.ico" />
+    <Content Include="favicon%281%29.ico" />
+    <Content Include="favicon.ico" />
+    <None Include="Resources\info_96px.png" />
+    <None Include="Resources\uninstalling_updates_15px.png" />
+    <None Include="Resources\microsoft_edge_96px.png" />
+    <None Include="Resources\internet_explorer_96px.png" />
+    <None Include="Resources\geography_18px.png" />
+    <None Include="Resources\repository_18px.png" />
+    <None Include="Resources\creative_commons_18px.png" />
+    <None Include="Resources\creative_commons_15px.png" />
+    <None Include="Resources\Store3.png" />
+    <None Include="Resources\download_20px.png" />
+    <None Include="Resources\Store21.png" />
+    <None Include="Resources\Store2.png" />
+    <None Include="Resources\checkmark_234px.png" />
+    <None Include="Resources\checkmark_23px1.png" />
+    <None Include="Resources\delete_23px.png" />
+    <None Include="Resources\checkmark_23px.png" />
+    <None Include="Resources\repeat_23px.png" />
+    <None Include="Resources\search_23px.png" />
+    <None Include="Resources\search_32px1.png" />
+    <None Include="Resources\Untitl5ed-2.png" />
+    <None Include="Resources\Untitle5d-2.png" />
+    <None Include="Resources\unnamed.gif" />
+    <None Include="Resources\561.png" />
+    <None Include="Resources\external-content.duckduckgo.com.png" />
+    <None Include="Resources\left_32px1.png" />
+    <None Include="Resources\Untit-1.png" />
+    <None Include="Resources\download_23px.png" />
+    <None Include="Resources\download_32px2.png" />
+    <None Include="Resources\external-content.duckduckgo.com.gif" />
+    <None Include="Resources\icons8_multiply_25px.png" />
+    <None Include="Resources\external-content.duck544duckgo.com.gif" />
+    <None Include="Resources\icons8_smartphone_tablet_25px.png" />
+    <None Include="Resources\icons8_tv_25px_1.png" />
+    <None Include="Resources\icons8_game_controller_25px.png" />
+    <None Include="Resources\home_25px.png" />
+    <None Include="Resources\icons8_home_32px.png" />
+    <None Include="Resources\multiply_32px3.png" />
+    <None Include="Resources\down_left_32px1.png" />
+    <None Include="Resources\enlarge_32px.png" />
+    <None Include="Resources\multiply_32px2.png" />
+    <None Include="Resources\multiply_32px1.png" />
+    <None Include="Resources\store image.png" />
+    <None Include="Resources\Untitled-124234.png" />
+    <None Include="Resources\help_64px.png" />
+    <None Include="Resources\Untitled-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Windows.SDK.Contracts">
+      <Version>10.0.19041.1</Version>
+    </PackageReference>
+    <PackageReference Include="System.Net.Http">
+      <Version>4.0.0</Version>
+    </PackageReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>
