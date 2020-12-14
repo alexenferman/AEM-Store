@@ -1,0 +1,19 @@
+C:\Users\Alex\source\repos\ARM Store\ARM Store\obj\Debug\ARM_Store.Form1.resources
+C:\Users\Alex\source\repos\ARM Store\ARM Store\obj\Debug\ARM_Store.Form2.resources
+C:\Users\Alex\source\repos\ARM Store\ARM Store\obj\Debug\ARM_Store.Form3.resources
+C:\Users\Alex\source\repos\ARM Store\ARM Store\obj\Debug\ARM_Store.Resources.resources
+C:\Users\Alex\source\repos\ARM Store\ARM Store\obj\Debug\ARM_Store.Splash.resources
+C:\Users\Alex\source\repos\ARM Store\ARM Store\obj\Debug\ARM Store.vbproj.GenerateResource.cache
+C:\Users\Alex\source\repos\ARM Store\ARM Store\obj\Debug\ARM Store.vbprojAssemblyReference.cache
+C:\Users\Alex\source\repos\ARM Store\ARM Store\bin\Debug\AEM Store.exe.config
+C:\Users\Alex\source\repos\ARM Store\ARM Store\bin\Debug\AEM Store.exe
+C:\Users\Alex\source\repos\ARM Store\ARM Store\bin\Debug\AEM Store.pdb
+C:\Users\Alex\source\repos\ARM Store\ARM Store\bin\Debug\AEM Store.xml
+C:\Users\Alex\source\repos\ARM Store\ARM Store\obj\Debug\AEM Store.exe
+C:\Users\Alex\source\repos\ARM Store\ARM Store\obj\Debug\AEM Store.xml
+C:\Users\Alex\source\repos\ARM Store\ARM Store\obj\Debug\AEM Store.pdb
+C:\Users\Alex\source\repos\ARM Store\ARM Store\bin\Debug\AEM Store.exe.manifest
+C:\Users\Alex\source\repos\ARM Store\ARM Store\bin\Debug\AEM Store.application
+C:\Users\Alex\source\repos\ARM Store\ARM Store\obj\Debug\AEM Store.TrustInfo.xml
+C:\Users\Alex\source\repos\ARM Store\ARM Store\obj\Debug\AEM Store.exe.manifest
+C:\Users\Alex\source\repos\ARM Store\ARM Store\obj\Debug\AEM Store.application
